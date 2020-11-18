@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-//hkjdsjkdsfljsf -- dfhsdfkjdsfkj
+
 /**
  * Write a description of class MyWorld here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Anika Sharma 
+ * 11/17/20
  */
 public class MyWorld extends World
 {
@@ -17,5 +17,12 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        
+        EnergyBar energyBar = new EnergyBar();
+        addObject(energyBar, 40, 150);
+        
+        EnergyArrow energyArrow = new EnergyArrow();
+        addObject(energyArrow, 65, 280);
+        
     }
 }
