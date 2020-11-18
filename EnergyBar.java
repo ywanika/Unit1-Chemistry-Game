@@ -19,7 +19,7 @@ public class EnergyBar extends Actor
     
     public EnergyBar(){
         GreenfootImage image = getImage();
-        image.scale(image.getWidth(), image.getHeight() + 200);
+        image.scale(image.getWidth() - 13, image.getHeight() - 160);
         setImage(image);
     }
 }
