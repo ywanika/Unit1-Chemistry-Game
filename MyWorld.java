@@ -24,6 +24,9 @@ public class MyWorld extends World
         EnergyArrow energyArrow = new EnergyArrow();
         addObject(energyArrow, 20, 290);
         
+        Cannon cannon = new Cannon();
+        addObject(cannon, 70, 350);
+        
         showText("Energy (kj/mol)", 85,20);
         
         showText("4000", 50,50);
