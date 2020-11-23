@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
@@ -7,20 +6,13 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Photon extends SmoothMover
+public class Photon extends  SmoothMover
 {
     /**
      * Act - do whatever the Photon wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-    {
-        // Add your action code here.
-=======
-import greenfoot.*;  
 
-public class Photon extends Actor
-{
     private double posx,posy,vx=0,vy=0,gx=0,gy=5.3,dt=0.25;
     public void addedToWorld(World MyWorld)
     {
@@ -43,6 +35,6 @@ public class Photon extends Actor
         vy+=gy*dt;
         setLocation((int)posx,(int)posy);
         if(posy>getWorld().getHeight()+100)getWorld().removeObject(this);
->>>>>>> Stashed changes
+//>>>>>>> Stashed changes
     }    
 }
