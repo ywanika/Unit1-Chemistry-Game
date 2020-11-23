@@ -14,6 +14,22 @@ public class Cannon extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+      if(Greenfoot.isKeyDown("up")) {
+           turn(-1);
+        }
+      if(Greenfoot.isKeyDown("down")) {
+           turn(+1);
+        }
+      if ("space".equals(Greenfoot.getKey()))
+       {
+           //fire();
+       }
+    } 
+    private void fire() {
+        int angle = getRotation() - 36; // adjust angle for image
+        //Cannonball ball = new Cannonball(new Vector(angle, 9));
+        //getWorld().addObject(ball, getX(), getY());
+        //ball.setRotation(angle);
+        //ball.move(42); // clear the cannon barrel
+    }
 }
