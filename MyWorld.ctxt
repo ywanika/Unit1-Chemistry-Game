@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ Anika\ Sharma\ \n\ 11/17/20\n
+comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ Shreya\ Chandra,\ Anika\ Sharma\ ,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ 11/23/20\n
 comment1.params=
 comment1.target=MyWorld()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
-numComments=2
+comment2.params=
+comment2.target=void\ startGame()
+comment3.params=numElec
+comment3.target=void\ setUp(int)
+numComments=4

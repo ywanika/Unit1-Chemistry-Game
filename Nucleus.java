@@ -1,15 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Photon here.
+ * Write a description of class Nucleus here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Photon extends SmoothMover
+public class Nucleus extends Actor
 {
     /**
-     * Act - do whatever the Photon wants to do. This method is called whenever
+     * Act - do whatever the Nucleus wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
