@@ -11,6 +11,7 @@ public class EnergyArrow extends Actor
 {
     private boolean movingUp;
     private boolean movingDown;
+    public int barY;
     /**
      * Act - do whatever the EnergyArrow wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -27,14 +28,14 @@ public class EnergyArrow extends Actor
     }
     
     private void move(){
-       int y = getY();
+       barY = getY();
        //System.out.print(x+""+y);
        //290 = bottom of bar, 50 = top
-       if (y == 50){ 
+       if (barY == 50){ 
            movingUp = false;
            movingDown = true;
        }
-       else if (y == 290){ 
+       else if (barY == 290){ 
            movingUp = true;
            movingDown = false;
        }
