@@ -8,19 +8,28 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class NextButton extends Actor
 {
+    String key = Greenfoot.getKey();
     /**
      * Act - do whatever the NextButton wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-         MyWorld myWorld = (MyWorld) getWorld();
+        MyWorld myWorld = (MyWorld) getWorld();
+        String newDeckChoice = myWorld.deckChoice;
          
         
-        if (Greenfoot.mouseClicked(this)) {
-             
+        if (Greenfoot.isKeyDown("space") && myWorld.deckChoice == "Oxygen") {
              myWorld.startGame(); 
-             System.out.println("This is a test."); 
+             myWorld.deckChoice = "Fluorine";
+        }
+        if (Greenfoot.isKeyDown("space") && myWorld.deckChoice == "Fluorine") {
+             myWorld.startGame(); 
+             myWorld.deckChoice = "Nitrogen";
+        }
+        if (Greenfoot.isKeyDown("space") && myWorld.deckChoice == "Nitrogen") {
+             myWorld.startGame(); 
+             myWorld.deckChoice = "Oxygen";
         }
     }    
     public NextButton(){
