@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ElectronBall extends SmoothMover
+public class Photon extends Actor
     /**
      * Act - do whatever the Photon wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -33,7 +33,13 @@ public class ElectronBall extends SmoothMover
         vx+=gx*dt;
         vy+=gy*dt;
         setLocation((int)posx,(int)posy - 10);
-        if(posy>getWorld().getHeight()+100)getWorld().removeObject(this);
+        
+        if(getOneIntersectingObject(Electron.class) != null)
+        {
+            getWorld().removeObject(getOneIntersectingObject(Electron.class)); 
+            getWorld().removeObject(this); 
+        }
+        
     }
 }
 
