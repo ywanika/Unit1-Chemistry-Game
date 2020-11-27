@@ -25,9 +25,9 @@ public class Canon extends Actor
             int w=(int)(0.5*getImage().getWidth());
             int posx=(int)(getX()+w*Math.cos(angle));
             int posy=(int)(getY()+w*Math.sin(angle));
-            ElectronBall electronBall = new ElectronBall();
-            electronBall.setVeloc(50*rx/r,50*ry/r);
-            getWorld().addObject(electronBall,posx,posy);
+            Photon photon = new Photon();
+            photon.setVeloc(50*rx/r,50*ry/r);
+            getWorld().addObject(photon,posx,posy);
         }
         else if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Fluorine"){
             MouseInfo mouse=Greenfoot.getMouseInfo();
