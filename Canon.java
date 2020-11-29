@@ -17,17 +17,22 @@ public class Canon extends Actor
         }
         
         if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Oxygen"){
-            MouseInfo mouse=Greenfoot.getMouseInfo();
-            int rx=mouse.getX()-getX();
-            int ry=mouse.getY()-getY()-50;
-            double r=Math.sqrt(rx*rx+ry*ry);
-            double angle=Math.atan2(ry,rx);
-            int w=(int)(0.5*getImage().getWidth());
-            int posx=(int)(getX()+w*Math.cos(angle));
-            int posy=(int)(getY()+w*Math.sin(angle));
-            Photon photon = new Photon();
-            photon.setVeloc(50*rx/r,50*ry/r);
-            getWorld().addObject(photon,posx,posy);
+            if (EnergyArrow.getEnergy() >= 1313){
+                MouseInfo mouse=Greenfoot.getMouseInfo();
+                int rx=mouse.getX()-getX();
+                int ry=mouse.getY()-getY()-50;
+                double r=Math.sqrt(rx*rx+ry*ry);
+                double angle=Math.atan2(ry,rx);
+                int w=(int)(0.5*getImage().getWidth());
+                int posx=(int)(getX()+w*Math.cos(angle));
+                int posy=(int)(getY()+w*Math.sin(angle));
+                Photon photon = new Photon();
+                photon.setVeloc(50*rx/r,50*ry/r);
+                getWorld().addObject(photon,posx,posy);
+            }
+            else{
+                System.out.println("nope");
+            }
         }
         else if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Fluorine"){
             MouseInfo mouse=Greenfoot.getMouseInfo();

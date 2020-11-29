@@ -61,13 +61,13 @@ public class MyWorld extends World
         //System.out.println("ArrayList : " + gameDeck.toString()); // debug
         for (int i=0; i < gameDeck.size(); i++) {
             if (deckChoice == "Oxygen"){
-                setUp(10); 
+                setUp(8); 
             }
             if (deckChoice == "Fluorine"){
                 setUp(9); 
             }
             if (deckChoice == "Nitrogen"){
-                setUp(8); 
+                setUp(7); 
             }
         }
     }
