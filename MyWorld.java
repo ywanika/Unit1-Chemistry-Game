@@ -11,6 +11,7 @@ import java.util.ArrayList; // allows us to make lists
 public class MyWorld extends World
 {
     public String deckChoice = "Oxygen";
+    public int numElec;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -60,18 +61,19 @@ public class MyWorld extends World
         //gameDeck.add("Nitrogen-CyanideIon"); // add 1 electron to N 
         //System.out.println("ArrayList : " + gameDeck.toString()); // debug
         //for (int i=0; i < gameDeck.size(); i++) {
-            if (deckChoice == "Oxygen"){
-                setUp(8); 
-            }
-            else if (deckChoice == "Fluorine"){
-                setUp(9); 
-            }
-            else if (deckChoice == "Nitrogen"){
-                setUp(7); 
-            }
+        if (deckChoice == "Oxygen"){
+            numElec = 8; 
+        }
+        else if (deckChoice == "Fluorine"){
+            numElec = 9; 
+        }
+        else if (deckChoice == "Nitrogen"){
+            numElec = 7; 
+        }
+        setUp();
         //}
     }
-    public void setUp(int numElec)
+    public void setUp()
     {   
         removeObjects(getObjects(Electron.class));
         
