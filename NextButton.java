@@ -20,18 +20,18 @@ public class NextButton extends Actor
          
         String key = Greenfoot.getKey();
         if ("space".equals(key) && myWorld.deckChoice == "Oxygen") {
-             myWorld.startGame(); 
              myWorld.deckChoice = "Fluorine";
+             myWorld.startGame(); 
              System.out.println(myWorld.deckChoice);
         }
         else if ("space".equals(key) && myWorld.deckChoice == "Fluorine") {
-             myWorld.startGame(); 
              myWorld.deckChoice = "Nitrogen";
+             myWorld.startGame(); 
              System.out.println(myWorld.deckChoice);
         }
         else if ("space".equals(key) && myWorld.deckChoice == "Nitrogen") {
-             myWorld.startGame(); 
              myWorld.deckChoice = "Oxygen";
+             myWorld.startGame(); 
              System.out.println(myWorld.deckChoice);
         }
     }    

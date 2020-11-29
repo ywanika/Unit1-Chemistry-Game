@@ -54,22 +54,22 @@ public class MyWorld extends World
         startGame();
     }
     public void startGame(){
-        List<String> gameDeck = new ArrayList<String>(); 
-        gameDeck.add(deckChoice); // add 2 electrons 
+        //List<String> gameDeck = new ArrayList<String>(); 
+        //gameDeck.add(deckChoice); // add 2 electrons 
         //gameDeck.add("Fluorine-FluorideIon"); // add 1 electron 
         //gameDeck.add("Nitrogen-CyanideIon"); // add 1 electron to N 
         //System.out.println("ArrayList : " + gameDeck.toString()); // debug
-        for (int i=0; i < gameDeck.size(); i++) {
+        //for (int i=0; i < gameDeck.size(); i++) {
             if (deckChoice == "Oxygen"){
                 setUp(8); 
             }
-            if (deckChoice == "Fluorine"){
+            else if (deckChoice == "Fluorine"){
                 setUp(9); 
             }
-            if (deckChoice == "Nitrogen"){
+            else if (deckChoice == "Nitrogen"){
                 setUp(7); 
             }
-        }
+        //}
     }
     public void setUp(int numElec)
     {   
