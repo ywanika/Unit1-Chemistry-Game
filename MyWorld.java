@@ -19,7 +19,16 @@ public class MyWorld extends World
     public MyWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        
+        
         super(600, 400, 1); 
+        
+        
+        System.out.println("||INSTRUCTIONS||"); 
+        System.out.println("1. The objective of the game is to remove electrons at the correct ionization energy"); 
+        System.out.println("2. Click anywhere on the screen to shoot a photon out of the cannon"); 
+        System.out.println("3. The energy bar will indicate where how much energy the photon has at any given moment"); 
+        System.out.println("4. Click the space bar to proceed to the next atom/molecule"); 
         
         EnergyBar energyBar = new EnergyBar();
         addObject(energyBar, 20, 170);
@@ -31,6 +40,7 @@ public class MyWorld extends World
         addObject(canon, 70, 350);
         
         showText("Energy (kj/mol)", 85,20);
+        showText("Click space to move on to the next level!", 370,380);
         
         showText("4000", 50,50);
         showText("3000", 50,110);
@@ -63,12 +73,16 @@ public class MyWorld extends World
         //for (int i=0; i < gameDeck.size(); i++) {
         if (deckChoice == "Oxygen"){
             numElec = 8; 
+            showText("Oxygen", 300,20);
+            
         }
         else if (deckChoice == "Fluorine"){
             numElec = 9; 
+            showText("Fluorine", 300,20);
         }
         else if (deckChoice == "Nitrogen"){
             numElec = 7; 
+            showText("Nitrogen", 300,20);
         }
         setUp();
         
