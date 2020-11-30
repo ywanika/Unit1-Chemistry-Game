@@ -2,12 +2,16 @@ import greenfoot.*;
 
 public class Canon extends Actor
 {
+    /**
+       * Creates the cannon and allows it to move/shoot photons.
+       * 
+       * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang 
+       * @1.0 11/30/20
+    */
     public void act() 
     {
         MyWorld myWorld = (MyWorld) getWorld();
-        //String newDeckChoice = myWorld.deckChoice;
-        //EnergyArrow energyArrow = (EnergyArrow) getObjects().EnergyArrow();
-        //int newBarY = energyArrow.barY;
+        
         if(Greenfoot.mouseMoved(null)){
             MouseInfo mouse=Greenfoot.getMouseInfo();
             int rx=mouse.getX()-getX();

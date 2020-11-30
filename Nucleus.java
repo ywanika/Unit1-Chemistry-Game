@@ -1,16 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Nucleus here.
+ * Creates the nucleus image.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang 
+ * @1.0 11/30/20
  */
 public class Nucleus extends Actor
 {
     /**
-     * Act - do whatever the Nucleus wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * No code is required for the nucleus to appear.
      */
     public void act() 
     {

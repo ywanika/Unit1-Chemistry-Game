@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Photon
-comment0.text=\n\ Write\ a\ description\ of\ class\ Photon\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Creates\ the\ photon,\ which\ will\ be\ aimed\ and\ shot\ out\ of\ the\ Cannon.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\n\ @1.0\ 11/30/20\n
 comment1.params=MyWorld
 comment1.target=void\ addedToWorld(greenfoot.World)
 comment2.params=vxo\ vyo
