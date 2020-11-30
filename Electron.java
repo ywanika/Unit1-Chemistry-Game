@@ -1,7 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Creates the electron images.
+ * Creates the electron
  * 
  * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang 
  * @1.0 11/30/20

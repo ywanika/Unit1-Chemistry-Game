@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Electron
-comment0.text=\n\ WCreates\ the\ electron\ images.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ @1.0\ 11/30/20\n
+comment0.text=\n\ Creates\ the\ electron\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ @1.0\ 11/30/20\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ No\ code\ is\ required\ here\ for\ it\ to\ appear\ \n

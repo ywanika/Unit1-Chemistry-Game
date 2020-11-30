@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\n\ \n\ Shreya\ Chandra,\ Anika\ Sharma\ ,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ 11/23/20\n
+comment0.text=\n\ Develops\ the\ world\ for\ the\ electron\ game,\ and\ places\ the\ necessary\ actors\ into\ it.\n\ \n\ Shreya\ Chandra,\ Anika\ Sharma\ ,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ 11/23/20\n
 comment1.params=
 comment1.target=MyWorld()
 comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
