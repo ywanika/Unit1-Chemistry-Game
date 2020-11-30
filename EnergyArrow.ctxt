@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=EnergyArrow
-comment0.text=\n\ Write\ a\ description\ of\ class\ EnergyArrow\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Creates\ the\ energy\ arrow,\ which\ will\ move\ up\ and\ down\ within\ the\ energy\ bar.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\n\ @1.0\ 11/30/20\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ EnergyArrow\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

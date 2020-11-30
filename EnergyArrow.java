@@ -2,10 +2,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class EnergyArrow here.
+ * Creates the energy arrow, which will move up and down within the energy bar.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang
+ * @1.0 11/30/20
  */
 public class EnergyArrow extends Actor
 {

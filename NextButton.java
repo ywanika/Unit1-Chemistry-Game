@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class NextButton here.
+ * Creates the next button, which will switch between levels.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang
+ * @1.0 11/30/20
  */
 public class NextButton extends Actor
 {
