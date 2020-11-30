@@ -112,6 +112,7 @@ public class Canon extends Actor
         photon.setVeloc(50*rx/r,50*ry/r); // sets x and y velocity of photon object
         getWorld().addObject(photon,posx,posy); // add object to the world
     }
+    
     private int ionizationNum(MyWorld myWorld){
         int ogNum = myWorld.numElec;
         int currentNum = getWorld().getObjects(Electron.class).size();
