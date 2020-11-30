@@ -1,16 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Electron here.
+ * Creates the electron images.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang 
+ * @1.0 11/30/20
  */
 public class Electron extends Actor
 {
     /**
-     * Act - do whatever the Electron wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * No code is required here for it to appear 
      */
     public void act() 
     {

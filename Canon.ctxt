@@ -2,6 +2,7 @@
 comment0.target=Canon
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\n\ Creates\ the\ cannon\ and\ allows\ it\ to\ move/shoot\ photons.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ @1.0\ 11/30/20\n
 comment2.params=
 comment2.target=void\ shoot()
 comment3.params=myWorld

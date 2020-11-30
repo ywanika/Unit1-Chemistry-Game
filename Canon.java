@@ -2,6 +2,12 @@ import greenfoot.*;
 
 public class Canon extends Actor
 {
+    /**
+       * Creates the cannon and allows it to move/shoot photons.
+       * 
+       * @Shreya Chandra, Anika Sharma, Niru Suravarjjala, Jenny Wang 
+       * @1.0 11/30/20
+    */
     public void act() 
     {
         MyWorld myWorld = (MyWorld) getWorld();
