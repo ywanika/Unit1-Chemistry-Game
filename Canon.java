@@ -18,20 +18,20 @@ public class Canon extends Actor
         
         if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Oxygen"){
             if (ionizationNum(myWorld) == 0){
-                System.out.println("The 1st ionization energy of Oxygen is 1313 kJ/mol.");
+                System.out.print("The 1st ionization energy of Oxygen is 1313 kJ/mol.");
                 if (EnergyArrow.getEnergy() >= 1313){
                     shoot();
-                    System.out.println("");
+                    System.out.println("/n");
                 }
                 else{
                     System.out.println("You need at least this much energy to remove an electron. \n");
                 }
             }
             else if (ionizationNum(myWorld) == 1){
-                System.out.println("The 2nd ionization energy of Oxygen is 3388 kJ/mol.");
+                System.out.print("The 2nd ionization energy of Oxygen is 3388 kJ/mol.");
                 if (EnergyArrow.getEnergy() >= 3388){
                     shoot();
-                    System.out.println("");
+                    System.out.println("/n");
                 }
                 else{
                     System.out.println("You need at least this much energy to remove an electron.\n");
@@ -45,20 +45,20 @@ public class Canon extends Actor
         
         else if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Fluorine"){
             if (ionizationNum(myWorld) == 0){
-                System.out.println("The 1st ionization energy of Fluorine is 1681 kJ/mol.");
+                System.out.print("The 1st ionization energy of Fluorine is 1681 kJ/mol.");
                 if (EnergyArrow.getEnergy() >= 1681){
                     shoot();
-                    System.out.println("");
+                    System.out.println("/n");
                 }
                 else{
                     System.out.println("You need at least this much energy to remove an electron. \n");
                 }
             }
             else if (ionizationNum(myWorld) == 1){
-                System.out.println("The 2nd ionization energy of Fluorine is 3374 kJ/mol.");
+                System.out.print("The 2nd ionization energy of Fluorine is 3374 kJ/mol.");
                 if (EnergyArrow.getEnergy() >= 3374){
                     shoot();
-                    System.out.println("");
+                    System.out.println("/n");
                 }
                 else{
                     System.out.println("You need at least this much energy to remove an electron. \n");
@@ -72,10 +72,10 @@ public class Canon extends Actor
         
         else if(Greenfoot.mouseClicked(null) && myWorld.deckChoice == "Nitrogen"){
             if (ionizationNum(myWorld) == 0){
-                System.out.println("The 1st ionization energy of Nitrogen is 1402 kJ/mol.");
+                System.out.print("The 1st ionization energy of Nitrogen is 1402 kJ/mol.");
                 if (EnergyArrow.getEnergy() >= 1402){
                     shoot();
-                    System.out.println("");
+                    System.out.println("/n");
                 }
                 else{
                     System.out.println("You need at least this much energy to remove an electron. \n");
@@ -94,10 +94,7 @@ public class Canon extends Actor
             else{
                 System.out.println("The 3rd ionization of Nitrogen takes 4578 kJ/mol. \n Please click space to move on to the next atom.");
             }
-        }
-        //else {
-        //    System.out.println("Wrong Electron Energy! Try again.");
-        //}    
+        }   
     }
     private void shoot(){
         MouseInfo mouse=Greenfoot.getMouseInfo();
@@ -113,9 +110,9 @@ public class Canon extends Actor
         getWorld().addObject(photon,posx,posy);
     }
     private int ionizationNum(MyWorld myWorld){
-        int ogNum = myWorld.numElec;
-        int currentNum = getWorld().getObjects(Electron.class).size();
+        int ogNum = myWorld.numElec; // findnumber of electrons originally displayed
+        int currentNum = getWorld().getObjects(Electron.class).size(); // finds number of electrons currently displayed
         //System.out.println(ogNum - currentNum);
-        return ogNum - currentNum;
+        return ogNum - currentNum; // returns number of electrons that were removed
     }
 }
