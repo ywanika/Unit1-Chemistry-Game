@@ -8,33 +8,33 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class NextButton extends Actor
 {
-    String key = Greenfoot.getKey();
     /**
-     * Act - do whatever the NextButton wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
+     * Changes the currents atom to a nex one when the space bar is pressed
      */
     public void act() 
     {
-        MyWorld myWorld = (MyWorld) getWorld();
-        String newDeckChoice = myWorld.deckChoice;
+        MyWorld myWorld = (MyWorld) getWorld(); //get refrence to world class
          
-        String key = Greenfoot.getKey();
-        if ("space".equals(key) && myWorld.deckChoice == "Oxygen") {
-             myWorld.deckChoice = "Fluorine";
-             myWorld.startGame(); 
+        String key = Greenfoot.getKey(); //obtains name of key pressed
+        if ("space".equals(key) && myWorld.deckChoice == "Oxygen") { // if the space key pressed and the current atom Oxygen
+             myWorld.deckChoice = "Fluorine"; //change atom to fluorine
+             myWorld.startGame(); //reset world
              //System.out.println(myWorld.deckChoice);
         }
-        else if ("space".equals(key) && myWorld.deckChoice == "Fluorine") {
-             myWorld.deckChoice = "Nitrogen";
-             myWorld.startGame(); 
+        else if ("space".equals(key) && myWorld.deckChoice == "Fluorine") {// if the space key pressed and the current atom Fluorine
+             myWorld.deckChoice = "Nitrogen"; // change atom to nitrogen
+             myWorld.startGame(); //reset world
              //System.out.println(myWorld.deckChoice);
         }
-        else if ("space".equals(key) && myWorld.deckChoice == "Nitrogen") {
-             myWorld.deckChoice = "Oxygen";
-             myWorld.startGame(); 
+        else if ("space".equals(key) && myWorld.deckChoice == "Nitrogen") {// if the space key pressed and the current atom Nitrogen
+             myWorld.deckChoice = "Oxygen"; // change atom to oxygen
+             myWorld.startGame(); //reset world
              //System.out.println(myWorld.deckChoice);
         }
     }    
+    /**
+     * adjust size of next button when constructed
+     */
     public NextButton(){
         GreenfootImage image = getImage();
         image.scale(image.getWidth() - 230, image.getHeight() - 250);
