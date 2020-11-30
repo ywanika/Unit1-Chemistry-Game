@@ -1,9 +1,10 @@
 #BlueJ class context
 comment0.target=EnergyBar
-comment0.text=\n\ Write\ a\ description\ of\ class\ EnergyBar\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Creates\ the\ energy\ bar.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\n\ @1.0\ 11/30/20\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ EnergyBar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.text=\n\ No\ specific\ code\ is\ required\ here.\n
 comment2.params=
 comment2.target=EnergyBar()
+comment2.text=\n\ Creates\ the\ image\ and\ sets\ it\ to\ a\ smaller\ scale.\n
 numComments=3
