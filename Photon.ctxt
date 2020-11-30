@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Photon
-comment0.text=\n\ Creates\ the\ photon,\ which\ will\ be\ aimed\ and\ shot\ out\ of\ the\ Cannon.\n\ \n\ @Shreya\ Chandra,\ Anika\ Sharma,\ Niru\ Suravarjjala,\ Jenny\ Wang\n\ @1.0\ 11/30/20\n
+comment0.text=\n\ A\ photon\ is\ a\ light\ particle\ with\ fixed\ energy\ and\ movement.\ This\ photon\ class\ allows\ the\ photon\ to\ shhot\ from\ the\ canon\ and\ remove\ electrons.\n\ \n\ Shreya\ Chandra,\ Anika\ Sharma\ ,\ Niru\ Suravarjjala,\ Jenny\ Wang\ \n\ Version\ 1.0\n
 comment1.params=MyWorld
 comment1.target=void\ addedToWorld(greenfoot.World)
 comment2.params=vxo\ vyo
