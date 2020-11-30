@@ -71,7 +71,7 @@ public class MyWorld extends World
             numElec = 7; 
         }
         setUp();
-        //}
+        
     }
     public void setUp()
     {   
@@ -79,35 +79,40 @@ public class MyWorld extends World
         
         Electron electron = new Electron(); 
         for (int i=0; i<numElec; i++) {
+            
             if (i==0) {
-                addObject(new Electron(), 385, 85);
-            }
-            if (i==1) {
-                addObject(new Electron(), 385, 290);
-            }
-            if (i==2) {
                 addObject(new Electron(), 500, 80);
             }
-            if (i==3) {
+            if (i==1) {
                 addObject(new Electron(), 500, 302);
             }
-            if (i==4) {
+            if (i==2) {
                 addObject(new Electron(), 275, 302);
             }
-            if (i==5) {
+            if (i==3) {
                 addObject(new Electron(), 275, 80);
             }
-            if (i==6) {
+            if (i==4) {
                 addObject(new Electron(), 385, 30);
             }
-            if (i==7) {
+            if (i==5) {
                 addObject(new Electron(), 385, 350);
             }
-            if (i==8) {
+            if (i==6) {
                 addObject(new Electron(), 550, 190);
             }
-            if (i==9) {
+            if (i==7) {
                 addObject(new Electron(), 225, 190);
+            }
+        }
+        
+        Core coreElectron = new Core();
+        for(int i=0;i<2;i++){
+            if (i==0) {
+                addObject(new Core(), 385, 85);
+            }
+            if (i==1) {
+                addObject(new Core(), 385, 290);
             }
         }
     }
