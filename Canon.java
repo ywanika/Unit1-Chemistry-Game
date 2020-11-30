@@ -5,9 +5,7 @@ public class Canon extends Actor
     public void act() 
     {
         MyWorld myWorld = (MyWorld) getWorld();
-        //String newDeckChoice = myWorld.deckChoice;
-        //EnergyArrow energyArrow = (EnergyArrow) getObjects().EnergyArrow();
-        //int newBarY = energyArrow.barY;
+        
         if(Greenfoot.mouseMoved(null)){
             MouseInfo mouse=Greenfoot.getMouseInfo();
             int rx=mouse.getX()-getX();
