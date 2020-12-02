@@ -2,6 +2,7 @@
 class.BohrRing1.image=ring1.png
 class.BohrRing2.image=ring2.png
 class.Canon.image=250-2507886_cannon-png-download-png-image-with-transparent-background-removebg-preview.png
+class.Core.image=yellow-draught.png
 class.Electron.image=blue-draught.png
 class.EnergyArrow.image=karo.png
 class.EnergyBar.image=EnergyBar.png
